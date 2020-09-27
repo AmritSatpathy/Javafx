@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #6fa2f2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemController">
+   <children>
+      <AnchorPane fx:id="rootanchorpane" layoutY="75.0" prefHeight="325.0" prefWidth="700.0" style="-fx-background-color: #e8effa;">
+         <children>
+            <Label fx:id="notasks" alignment="CENTER" layoutX="220.0" layoutY="65.0" prefHeight="27.0" prefWidth="270.0" text="Add Tasks !" textFill="#a5b289">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="addbutton" fitHeight="68.0" fitWidth="134.0" layoutX="321.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/add-button.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="290.0" layoutY="13.0" prefHeight="44.0" prefWidth="134.0" text="TODOS" textAlignment="CENTER" textFill="#ff9292">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

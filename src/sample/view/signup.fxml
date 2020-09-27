@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #6fa2f2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SignupController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="78.0" prefHeight="322.0" prefWidth="700.0" style="-fx-background-color: #e8effa;">
+         <children>
+            <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="34.0" prefWidth="707.0" style="-fx-background-color: #467ad4;">
+               <children>
+                  <Label alignment="CENTER" layoutX="307.0" layoutY="9.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="23.0" prefWidth="94.0" text="Sign Up" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXTextField fx:id="singUpFirstName" layoutX="241.0" layoutY="56.0" prefHeight="30.0" prefWidth="224.0" promptText="First Name" />
+            <JFXTextField fx:id="singUpLastName" layoutX="241.0" layoutY="99.0" prefHeight="30.0" prefWidth="224.0" promptText="Last Name" />
+            <JFXTextField fx:id="singUpUserName" layoutX="241.0" layoutY="146.0" prefHeight="30.0" prefWidth="224.0" promptText="UserName" />
+            <JFXCheckBox fx:id="singUpMale" layoutX="264.0" layoutY="231.0" text="Male" />
+            <JFXCheckBox fx:id="singUpFemale" layoutX="362.0" layoutY="231.0" text="Female" />
+            <JFXPasswordField fx:id="singUpPassword" layoutX="239.0" layoutY="192.0" prefHeight="25.0" prefWidth="224.0" promptText="Password" />
+            <JFXButton fx:id="singUpButton" layoutX="304.0" layoutY="269.0" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #4074cf;" text="SignUp" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="317.0" layoutY="23.0" text="TODOs" textFill="#ffafaf">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
